@@ -8,24 +8,21 @@ const carImages = {
     process.env.PUBLIC_URL + '/images/sedan_back.png',
     process.env.PUBLIC_URL + '/images/sedan_left.png',
     process.env.PUBLIC_URL + '/images/sedan_right.png',
-    process.env.PUBLIC_URL + '/images/sedan_top.png',
-    process.env.PUBLIC_URL + '/images/sedan_bottom.png',
+    
   ],
   SUV: [
     process.env.PUBLIC_URL + '/images/suv_front.png',
     process.env.PUBLIC_URL + '/images/suv_back.png',
     process.env.PUBLIC_URL + '/images/suv_left.png',
     process.env.PUBLIC_URL + '/images/suv_right.png',
-    process.env.PUBLIC_URL + '/images/suv_top.png',
-    process.env.PUBLIC_URL + '/images/suv_bottom.png',
+    
   ],
   Coupe: [
     process.env.PUBLIC_URL + '/images/coupe_front.png',
     process.env.PUBLIC_URL + '/images/coupe_back.png',
     process.env.PUBLIC_URL + '/images/coupe_left.png',
     process.env.PUBLIC_URL + '/images/coupe_right.png',
-    process.env.PUBLIC_URL + '/images/coupe_top.png',
-    process.env.PUBLIC_URL + '/images/coupe_bottom.png',
+    
   ],
 };
 
