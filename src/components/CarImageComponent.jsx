@@ -58,13 +58,13 @@ const CarImageComponent = ({ carType }) => {
 
   return (
     <div>
-      <div style={{ position: 'relative', display: 'inline-block', width: '100%' }}>
+      <div style={{ position: 'relative', display: 'inline-block', width: '100%', height: '500px' }}>
         <Image
           src={carImages[carType][currentImageIndex]}
           alt="Car"
           preview={false}
           onClick={placeIcon}
-          style={{ width: '100%' }}
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
         {icons[currentImageIndex].map((icon, index) => (
           <Tooltip key={index} title={`Icon at (${icon.x}, ${icon.y})`}>
